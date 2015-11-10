@@ -14,4 +14,4 @@ scanr = Scanr.new 'YOUR_TOKEN', 'eng'
 p scanr.ocr '/path/to/image.png'
 ```
 
-(more docs)[http://docs.scanr.xyz]
+[more docs](http://docs.scanr.xyz)
