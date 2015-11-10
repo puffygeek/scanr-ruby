@@ -1,6 +1,6 @@
 # scanR ruby client  
 
- gem build scanr.gemspec; sudo gem install ./scanr-ruby-0.0.1.gem
+ gem build scanr.gemspec; sudo gem install ./scanr-ruby-0.0.2.gem
  irb
  require 'scanr'
  s = Scanr.new('token')
