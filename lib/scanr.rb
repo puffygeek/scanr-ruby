@@ -14,17 +14,12 @@ class Scanr
     else
       params[:file] = File.new(path, 'rb')
     end
+    p url, params
     JSON.parse RestClient.post(url, params)
   end
 end
 
 def url
-  "http://localhost:8080/ocr?token=#{@token}&lang=#{@lang}"
-  # TEST: 
-  # gem build scanr.gemspec; sudo gem install ./scanr-ruby-0.0.1.gem
-  #irb
-  # require 'scanr'
-  #s = Scanr.new('token')
-  #p JSON.parse s.ocr '/Users/sagivo/dev/side/scanr-ruby/foo.pdf'
+  "http://api.scanr.xyz/ocr?token=#{@token}&lang=#{@lang}"
 end
 
