@@ -8,11 +8,6 @@ dead simple. fast ocr client
 
 ##Get Started
 
-Simply install via [npm](https://npmjs.org/):
-
-```javascript
-npm install scanr-node
-```
 Load it and you're ready to go!
 
 ```ruby
